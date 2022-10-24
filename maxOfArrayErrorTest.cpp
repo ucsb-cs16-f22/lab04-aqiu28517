@@ -3,8 +3,10 @@
 
 int main() {
 
-  // Fill this in with code that calls maxOfArray with a size of zero.
-  // so that you can see if the error message prints correctly.
+  assertEquals(0, maxOfArray({}, 0), "maxOfArray(empty,0)");
+
+
+
   return 0;
 
 }
